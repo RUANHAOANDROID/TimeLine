@@ -142,10 +142,10 @@ public class TimeLineItemDecoration extends RecyclerView.ItemDecoration {
 
             //左侧月份
             float Text_x = child.getLeft() - LEFT_OFFSETS * 0.8f;
-            float Text_y = centery - circle_radius;
+            float Text_y = centery + circle_radius;
 
             if (null != entity.getTime() && TextUtils.isEmpty(entity.getTime())) return;
-            c.drawText(entity.getTime(), Text_x + 5, Text_y + 20, paintMonth);
+            c.drawText(entity.getTime(), Text_x + circle_radius/2, Text_y , paintMonth);
         }
     }
 
