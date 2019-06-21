@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!-- 操作轨迹-->
+    <color name="gray_999999">#999999</color>
+    <color name="ffa246">#ffa246</color>
+    <color name="blue_ff7458">#ff7458</color>
+    <color name="green_8FC31F">#8FC31F</color>
+    <color name="year_blue">#5e9aee</color>
+    <color name="month_gray">#333333</color>
+    <color name="bgff4020">#ff4020</color>
+    <color name="ffdfbf">#ffdfbf</color>
+</resources>
