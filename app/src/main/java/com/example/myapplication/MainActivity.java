@@ -1,19 +1,21 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import me.yokeyword.fragmentation.SupportActivity;
+import com.example.timeline.R;
 
-public class MainActivity extends SupportActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.rootView, OperationHistoryFragment.newInstance())
+                .commit();
 
-        if (findFragment(OperationHistoryFragment.class) == null) {
-            loadRootFragment(R.id.rootView, OperationHistoryFragment.newInstance("null","null"));  //load root Fragment
-        }
     }
 
 }

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.example.myapplication"
+        applicationId "com.example.timeline"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -30,7 +30,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    api 'me.yokeyword:fragmentation:1.3.6'    //fragment框架
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
 
 }

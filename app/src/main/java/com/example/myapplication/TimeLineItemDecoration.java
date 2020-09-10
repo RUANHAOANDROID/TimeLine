@@ -13,6 +13,8 @@ import android.text.TextPaint;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.example.timeline.R;
+
 public class TimeLineItemDecoration extends RecyclerView.ItemDecoration {
     public final static int STATUS_REPORT =0;//上报
     public final static int STATUS_MEDIATION=1;//调处
